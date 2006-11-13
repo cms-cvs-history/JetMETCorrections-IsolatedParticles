@@ -40,5 +40,9 @@
   <flags SEAL_PLUGIN_NAME="testIsoTracks">
 </library>
 
+<library file=TestIsoSimTracks.cc name=testIsoSimTracks>
+  <flags SEAL_PLUGIN_NAME="testIsoSimTracks">
+</library>
+
 # add debug symbols
 # <Flags CXXFLAGS=-g>
