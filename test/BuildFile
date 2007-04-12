@@ -37,11 +37,11 @@
 # <use name=MuonTest/MuonReco>
 
 <library file=TestIsoTracks.cc name=testIsoTracks>
-  <flags SEAL_PLUGIN_NAME="testIsoTracks">
+  <flags EDM_PLUGIN=1>
 </library>
 
 <library file=TestIsoSimTracks.cc name=testIsoSimTracks>
-  <flags SEAL_PLUGIN_NAME="testIsoSimTracks">
+  <flags EDM_PLUGIN=1>
 </library>
 
 # add debug symbols
