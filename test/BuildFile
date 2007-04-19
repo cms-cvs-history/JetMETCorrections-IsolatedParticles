@@ -28,7 +28,7 @@
 <use name=TrackingTools/GeomPropagators>
 
 <use name=MagneticField/Engine>
-<use name=MagneticField/VolumeBasedEngine>
+#<use name=MagneticField/VolumeBasedEngine>
 <use name=MagneticField/Records>
 
 <use name=TrackPropagation/SteppingHelixPropagator>
