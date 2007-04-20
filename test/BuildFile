@@ -1,5 +1,6 @@
 # -*-SH-*-
 <use name=clhep>
+<use name=root>
 <use name=DataFormats/Common>
 <use name=DataFormats/TrackReco>
 <use name=DataFormats/EgammaReco>
@@ -19,11 +20,11 @@
 
 <use name=Geometry/Records>
 
-<use name=SimCalorimetry/EcalSimProducers>
 
 #
 # <use name=SimDataFormats/HepMCProduct>
 <use name=DataFormats/DetId>
+<use name=SimDataFormats/Vertex>
 
 <use name=TrackingTools/GeomPropagators>
 
