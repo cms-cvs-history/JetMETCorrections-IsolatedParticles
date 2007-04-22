@@ -1,12 +1,11 @@
 # -*-SH-*-
 <use name=clhep>
-<use name=root>
 <use name=DataFormats/Common>
 <use name=DataFormats/TrackReco>
 <use name=DataFormats/EgammaReco>
 
 <use name=FWCore/Framework>
-<use name=FWCore/PluginManager>
+<use name=Foundation/PluginManager>
 <use name=FWCore/ParameterSet>
 
 # <use name=Geometry/DTGeometry>
@@ -20,16 +19,16 @@
 
 <use name=Geometry/Records>
 
+<use name=SimCalorimetry/EcalSimProducers>
 
 #
 # <use name=SimDataFormats/HepMCProduct>
 <use name=DataFormats/DetId>
-<use name=SimDataFormats/Vertex>
 
 <use name=TrackingTools/GeomPropagators>
 
 <use name=MagneticField/Engine>
-#<use name=MagneticField/VolumeBasedEngine>
+<use name=MagneticField/VolumeBasedEngine>
 <use name=MagneticField/Records>
 
 <use name=TrackPropagation/SteppingHelixPropagator>
@@ -38,11 +37,11 @@
 # <use name=MuonTest/MuonReco>
 
 <library file=TestIsoTracks.cc name=testIsoTracks>
-  <flags EDM_PLUGIN=1>
+  <flags SEAL_PLUGIN_NAME="testIsoTracks">
 </library>
 
 <library file=TestIsoSimTracks.cc name=testIsoSimTracks>
-  <flags EDM_PLUGIN=1>
+  <flags SEAL_PLUGIN_NAME="testIsoSimTracks">
 </library>
 
 # add debug symbols
